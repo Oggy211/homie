@@ -1,0 +1,21 @@
+[THREAD] Worker_1 starts T1 priority=HIGH burst=200ms
+[LOCK] Worker_1 waiting
+[LOCK] Worker_1 acquired
+[PROCESS] T1 status=COMPLETED
+[LOCK] Worker_1 released
+[THREAD] Worker_2 starts T2 priority=MEDIUM burst=150ms
+[LOCK] Worker_2 waiting
+[LOCK] Worker_2 acquired
+[PROCESS] T2 status=COMPLETED
+[LOCK] Worker_2 released
+[THREAD] Worker_3 starts T3 priority=LOW burst=100ms
+[LOCK] Worker_3 waiting
+[LOCK] Worker_3 acquired
+[PROCESS] T3 status=COMPLETED
+[LOCK] Worker_3 released
+[THREAD] Worker_4 starts T4 priority=HIGH burst=250ms
+[LOCK] Worker_4 waiting
+[LOCK] Worker_4 acquired
+[PROCESS] T4 status=COMPLETED
+[LOCK] Worker_4 released
+[FINAL COMPLETED TASK LIST] T1, T2, T3, T4

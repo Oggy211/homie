@@ -1,0 +1,4 @@
+[CLIENT C1] RTT=100 ms | estimated_server_time=1100.0 ms | adjustment=+0.0 ms
+[CLIENT C2] RTT=120 ms | estimated_server_time=2130.0 ms | adjustment=+10.0 ms
+[CLIENT C3] RTT=100 ms | estimated_server_time=3090.0 ms | adjustment=-10.0 ms
+[CLIENT C4] RTT=200 ms | estimated_server_time=4200.0 ms | adjustment=+0.0 ms

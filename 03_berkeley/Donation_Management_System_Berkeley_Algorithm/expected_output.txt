@@ -1,0 +1,9 @@
+[POLL] N1 time=3600 sec faulty=FALSE
+[POLL] N2 time=3610 sec faulty=FALSE
+[POLL] N3 time=3590 sec faulty=FALSE
+[POLL] N4 time=5000 sec faulty=TRUE
+[DISCARD] N4 time=5000 sec
+[AVERAGE] synchronized_time=3600.0 sec
+[ADJUST] N1 +0.0 sec
+[ADJUST] N2 -10.0 sec
+[ADJUST] N3 +10.0 sec

@@ -1,0 +1,10 @@
+[DETECT] Coordinator Node 5 has failed
+[ELECTION START] Node 1
+[TOKEN] Node 1 -> Node 2
+[TOKEN] Node 2 -> Node 3
+[TOKEN] Node 3 -> Node 4
+[TOKEN] Node 4 -> Node 1 (skipped inactive: 5)
+[ELECTED COORDINATOR] Node 4 (highest active node ID)
+[ANNOUNCE] Node 4 -> Node 1
+[ANNOUNCE] Node 4 -> Node 2
+[ANNOUNCE] Node 4 -> Node 3
