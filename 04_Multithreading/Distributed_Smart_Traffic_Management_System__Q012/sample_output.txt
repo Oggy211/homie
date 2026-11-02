@@ -1,0 +1,17 @@
+Worker_1 locked task T1
+Worker_1 released lock; working on T1
+Worker_2 locked task T2
+Worker_2 released lock; working on T2
+Worker_3 locked task T3
+Worker_3 released lock; working on T3
+Worker_3 completed T3; count = 1
+Worker_2 completed T2; count = 2
+Worker_2 locked task T5
+Worker_2 released lock; working on T5
+Worker_1 completed T1; count = 3
+Worker_1 locked task T4
+Worker_1 released lock; working on T4
+Worker_2 completed T5; count = 4
+Worker_1 completed T4; count = 5
+Completed tasks: T1, T2, T3, T4, T5
+Total completed: 5

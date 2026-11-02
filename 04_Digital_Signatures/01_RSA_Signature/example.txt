@@ -1,5 +1,0 @@
-Example input (one line per prompt):
-9
-
-Expected output contains:
-Verified: True

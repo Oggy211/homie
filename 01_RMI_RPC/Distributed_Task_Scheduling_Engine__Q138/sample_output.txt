@@ -1,0 +1,8 @@
+[DISPATCH] Client_A calls processData
+Request JSON: {"call_id": "101", "client_name": "Client_A", "method_name": "processData", "param_value": "450", "timestamp": "10:00:01"}
+[SERVER EXECUTION] Processing parameter 450
+[RETURN] Result = 900
+[DISPATCH] Client_B calls processData
+Request JSON: {"call_id": "102", "client_name": "Client_B", "method_name": "processData", "param_value": "120", "timestamp": "10:00:02"}
+[SERVER EXECUTION] Processing parameter 120
+[RETURN] Result = 240

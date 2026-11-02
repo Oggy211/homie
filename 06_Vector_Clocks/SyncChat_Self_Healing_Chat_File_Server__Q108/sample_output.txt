@@ -1,0 +1,23 @@
+Vector clocks
+E1 P1 SEND P2 vector: [1, 0, 0]
+E2 P3 LOCAL  vector: [0, 0, 1]
+E3 P2 RECEIVE P1 vector: [1, 1, 0]
+E4 P2 SEND P3 vector: [1, 2, 0]
+E5 P3 RECEIVE P2 vector: [1, 2, 2]
+E6 P1 LOCAL  vector: [2, 0, 0]
+Concurrent: E1 || E2
+Causally preceding: E1 < E3
+Causally preceding: E1 < E4
+Causally preceding: E1 < E5
+Causally preceding: E1 < E6
+Concurrent: E2 || E3
+Concurrent: E2 || E4
+Causally preceding: E2 < E5
+Concurrent: E2 || E6
+Causally preceding: E3 < E4
+Causally preceding: E3 < E5
+Concurrent: E3 || E6
+Causally preceding: E4 < E5
+Concurrent: E4 || E6
+Concurrent: E5 || E6
+Pending messages: 0

@@ -1,0 +1,16 @@
+Cristian clock synchronization
+Client: C1
+RTT: 100.0 ms
+Estimated server time: 1100.0 ms
+Clock adjustment: 0.0 ms
+Adjusted client time: 1100.0 ms
+Client: C2
+RTT: 120.0 ms
+Estimated server time: 2260.0 ms
+Clock adjustment: 140.0 ms
+Adjusted client time: 2260.0 ms
+Client: C3
+RTT: 100.0 ms
+Estimated server time: 5000.0 ms
+Clock adjustment: -100.0 ms
+Adjusted client time: 5000.0 ms

@@ -1,0 +1,17 @@
+J101 -> Worker_1
+Current load: {'Worker_1': 35, 'Worker_2': 0, 'Worker_3': 0}
+J102 -> Worker_2
+Current load: {'Worker_1': 35, 'Worker_2': 20, 'Worker_3': 0}
+J103 -> Worker_3
+Current load: {'Worker_1': 35, 'Worker_2': 20, 'Worker_3': 50}
+J104 -> Worker_1
+Current load: {'Worker_1': 50, 'Worker_2': 20, 'Worker_3': 50}
+J105 -> Worker_2
+Current load: {'Worker_1': 50, 'Worker_2': 50, 'Worker_3': 50}
+J106 -> Worker_3
+Current load: {'Worker_1': 50, 'Worker_2': 50, 'Worker_3': 60}
+
+Final summary:
+Worker_1: 2 jobs, 50 compute units
+Worker_2: 2 jobs, 50 compute units
+Worker_3: 2 jobs, 60 compute units

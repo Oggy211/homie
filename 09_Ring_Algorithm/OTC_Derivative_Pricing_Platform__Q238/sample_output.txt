@@ -1,0 +1,13 @@
+Previous coordinator 5 failed.
+TOKEN: 1 -> 2; candidates = [1]
+Bypassing inactive node 3
+TOKEN: 2 -> 4; candidates = [1, 2]
+Bypassing inactive node 5
+TOKEN: 4 -> 1; candidates = [1, 2, 4]
+COORDINATOR: 4 has the highest active ID.
+Bypassing inactive node 5
+COORDINATOR: 4 -> 1; leader = 4
+COORDINATOR: 1 -> 2; leader = 4
+Bypassing inactive node 3
+COORDINATOR: 2 -> 4; leader = 4
+Final leader: 4

@@ -1,0 +1,13 @@
+Berkeley clock synchronization
+Median: 3610.0 Outlier threshold: 60 seconds
+Polled N1 time: 3600.0
+Polled N2 time: 3620.0
+Polled N3 time: 3590.0
+Polled N4 time: 9000.0
+Discarded N4 because it is faulty
+Polled N5 time: 7200.0
+Discarded N5 because it is an outlier
+Average time: 3603.333
+N1 adjustment: 3.333 seconds
+N2 adjustment: -16.667 seconds
+N3 adjustment: 13.333 seconds

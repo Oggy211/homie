@@ -1,0 +1,6 @@
+task_id,thread_name,burst_ms,priority,status
+T1,Worker_1,200,HIGH,PENDING
+T2,Worker_2,150,MEDIUM,PENDING
+T3,Worker_3,100,HIGH,PENDING
+T4,Worker_1,50,LOW,PENDING
+T5,Worker_2,50,HIGH,PENDING
